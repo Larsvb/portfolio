@@ -15,9 +15,73 @@ $tertiary-color: #1900FF;
 
 body{
     background: $primary-color;
+    margin:0px;
 }
 
 .row{
+    width: 100%;
+
+    &.nav{
+        position: fixed;
+        z-index: 9999;
+        height: 50px;
+
+        .full-row{
+            max-width: 1300px;
+
+            .container{
+                padding-top: 0px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:space-between;
+                vertical-align: middle;
+                .logo{
+
+                    h2{
+                        margin:10px 0 9px;
+                        font-size: 25px;
+                    }
+                }
+
+                nav{
+                    width: 320px;
+                    float: right;
+
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        width: auto;
+                        list-style: none;
+
+                        a{
+                            text-decoration: none;
+                        }
+
+                        li{
+                            margin: 0 10px;
+                            font-family: $primary-font;
+                            color: $secondary-color;
+                            font-weight: $semi-bold;
+                            transition: all ease 0.4s;
+
+                            &:hover{
+                                color: $tertiary-color;
+                            }
+
+                            &:nth-first-child(){
+                                margin-left: 0px;
+                            }
+
+                            &:nth-last-child(){
+                                margin-right: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     .full-row{
         margin: 0 auto;
@@ -25,6 +89,8 @@ body{
         padding: 0 35px;
 
         .container{
+            padding-top: 200px;
+            display: inline-block;
 
             .title{
                 position: relative;

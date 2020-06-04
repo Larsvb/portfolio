@@ -11,6 +11,10 @@ function Home() {
             <div className="title">
               <h1>Hello i'm <br />Lars van Boven</h1>
             </div>
+
+            <div className="sub-title">
+              <h4> Media vormgever & Full-Stack developer</h4> 
+            </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,55 @@
+@import './config';
+.row{
+     &.home{
+        position: relative;
+
+        .container{
+            .sub-title{
+                display: inline-block;
+                position: relative;
+                margin-left: 100px;
+                margin-top: 10px;
+
+                &::after{
+                    content: '';
+                    width: 10px;
+                    height: 2px;
+                    background: $secondary-color;
+                    position: absolute;
+                    top:50%;
+                    transform: translate(0, -50%);
+                    right: -20px;
+                }
+                
+                h4{
+                    margin:0px;
+                    position: relative;
+
+                    &::before, ::after{
+                        content: '';
+                        width: 10px;
+                        height: 2px;
+                        background: $secondary-color;
+                        position: absolute;
+                        top:50%;
+                        transform: translate(0, -50%);
+                        left: -20px;
+                    }
+                }
+            }
+        }
+
+        .img{
+            height: 100%;
+            max-height: 750px;
+            position: absolute;
+            right: 0;
+            top: 90px;
+            padding-bottom: 30px;
+            img{
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+}

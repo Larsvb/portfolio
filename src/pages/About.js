@@ -12,7 +12,19 @@ function About() {
               <h1>About me</h1>
             </div>
 
-            <div className="text">
+            <div className="text-container">
+              <div className="story">
+
+              </div>
+
+              <div className="extra-story-container">
+                  <div className="char">
+
+                  </div>
+                  <div className="hobbies">
+
+                  </div>
+              </div>
             </div>
         </div>
       </div>

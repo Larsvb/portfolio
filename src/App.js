@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 
 import Nav from './components/Nav'
+import Sidebar from './components/Sidebar';
+
 import Home from './pages/Home'
 import About from './pages/About'
 import Skills from './pages/Skills'
@@ -15,6 +17,7 @@ import MyWork from './pages/MyWork'
 function App() {
   return (
     <Router>
+      <Sidebar />
       <Nav />
         <Switch>
           <Route exact path="/" component={Home} />

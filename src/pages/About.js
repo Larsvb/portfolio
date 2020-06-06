@@ -18,15 +18,16 @@ function About() {
               <div className="story">
                 <p> 
                 Mijn naam is Lars van Boven, ik ben een 21 jarige afgestudeerde media-vormgever en momenteel 
-                een Full-Stack webdeveloper student op Hogeschool Rotterdam. <br /><br />
+                een Full-Stack webdeveloper / CMGT student op Hogeschool Rotterdam. <br /><br />
 
                 Door vroeg in aanmerking te komen met Photoshop is mijn passie voor 
                 design met de jaren steeds meer gegroeid. Dat groeien gebeurde nadat ik mijn middelbare school 
                 had afgerond en ik de MBO4 opleiding media-vormgeving ben gaan volgen op het Grafisch Lyceum Rotterdam.<br /><br />
 
                 Hierbij werd mij duidelijk dat de interactieve wereld mijn aandacht en passie het meest trok. 
-                Hierdoor had ik de Interactive Design richting gekozen en ben ik de basis kennis van HTML, 
-                CSS en Javascript gaan leren d.m.v de lessen en een heel jaar stage bij een internet bureau. <br /><br />
+                In het 2e jaar had ik de "Interaction Design" richting gekozen en ben ik de basis kennis van HTML, 
+                CSS en Javascript gaan leren d.m.v de lessen. Na een jaar stage te hebben gelopen bij een internet bureau is mijn 
+                kennis en vaardigheden op dit gebied alleen maar gegroeid. <br /><br />
 
                 Na het succesvol afronden van deze opleiding wilde ik meer kennis vergen en 
                 mij verdiepen in web development en design. De HBO-opleiding Creative Media & Game Technology was 

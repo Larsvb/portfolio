@@ -61,11 +61,12 @@ html,body{
 
 // Sidebar styling -------------------------------------------------------
 .bar{
-    position:absolute;
+    position:fixed;
     width: 30px;
     height: 100%;
     left: 40px;
     top: 0;
+    z-index: 9998;
 
     .bar-container{
         position: relative;
@@ -85,7 +86,7 @@ html,body{
         }
 
         .socials{
-            position: fixed;
+            position: absolute;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -98,10 +99,24 @@ html,body{
 
             a{
                 margin: 10px 0px;
+                position: relative;
+                transition: all ease 0.4s;
+
+                &::before{
+                    content: '';
+                    width: 20px;
+                    height: 1px;
+                    position: absolute;
+                    background-color: $secondary-color;
+                    top: 37%;
+                    left: -32px;
+                    opacity: 0.3;
+                }
 
                 &:hover{
                     svg{
                         fill: $tertiary-color;
+                        transform: rotate(360deg);
                     }
                 }
 
@@ -110,6 +125,7 @@ html,body{
                     height: 20px;
                     fill: $secondary-color;
                     transition: all ease 0.4s;
+                    box-sizing: border-box;
                 }
             }
         }

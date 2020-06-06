@@ -7,13 +7,13 @@ function Nav() {
             <div className="full-row">
                 <div className="container">
                     <div className='logo'>
-                        <h2>Lars van Boven</h2>
+                        <NavLink to="/"><h2>Lars van Boven</h2></NavLink>
                     </div>
                     <div className="menu">
-                        <NavLink className="menu-item" to='/' activeClassName="selected">Home</NavLink>
-                        <NavLink className="menu-item" to='about' activeClassName="selected">About</NavLink>
-                        <NavLink className="menu-item" to='skills'activeClassName="selected">Skills</NavLink>
-                        <NavLink className="menu-item" to='mywork'activeClassName="selected">MyWork</NavLink>
+                        
+                        <NavLink className="menu-item" to='/about' activeClassName="selected">About</NavLink>
+                        <NavLink className="menu-item" to='/skills'activeClassName="selected">Skills</NavLink>
+                        <NavLink className="menu-item" to='/portfolio'activeClassName="selected">Portfolio</NavLink>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,17 @@
                         text-transform: $transform;
 
                         &.selected{
-                            color: $tertiary-color;
+                            position: relative;
+                            &::after{
+                                content: '';
+                                height: 3px;
+                                background-color: $tertiary-color;
+                                width: 100%;
+                                position: absolute;
+                                bottom: -5px;
+                                left: 0;
+                                transform: translateX(0);
+                            }
                         }
 
                         &:nth-first-child(){

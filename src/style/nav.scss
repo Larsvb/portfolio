@@ -1,7 +1,3 @@
-.background-blur{
-
-
-}
 .row{
     &.nav{
         position: fixed;
@@ -10,9 +6,10 @@
 
         .full-row{
             max-width: 1300px;
+            padding: 0 35px 0 60px;
 
             .container{
-                padding-top: 0px;
+                margin-top: 0px;
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
@@ -26,35 +23,35 @@
                     }
                 }
 
-                nav{
+                .menu{
                     width: 320px;
                     float: right;
+                    padding:10px 0;
+                    box-sizing: border-box;
 
-                    ul{
-                        display: flex;
-                        justify-content: space-between;
-                        width: auto;
-                        list-style: none;
 
-                        li{
-                            margin: 0 10px;
-                            font-family: $primary-font;
-                            color: $secondary-color;
-                            font-weight: $semi-bold;
-                            transition: all ease 0.4s;
-                            text-transform: $transform;
+                    .menu-item{
+                        margin: 0 10px;
+                        font-family: $primary-font;
+                        color: $secondary-color;
+                        font-weight: $semi-bold;
+                        transition: all ease 0.4s;
+                        text-transform: $transform;
 
-                            &:nth-first-child(){
-                                margin-left: 0px;
-                            }
+                        &.selected{
+                            color: $tertiary-color;
+                        }
 
-                            &:nth-last-child(){
-                                margin-right: 0px;
-                            }
+                        &:nth-first-child(){
+                            margin-left: 0px;
+                        }
 
-                            &:hover{
-                                color: $tertiary-color;
-                            }
+                        &:nth-last-child(){
+                            margin-right: 0px;
+                        }
+
+                        &:hover, &:active{
+                            color: $tertiary-color;
                         }
                     }
                 }

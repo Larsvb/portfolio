@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Mobilebg from '../images/larshomemobile.jpg'
 function Home() {
   return (
     <div className="row home">
@@ -8,6 +8,9 @@ function Home() {
       </div>
       <div className="full-row">
         <div className="container">
+            <div className='mobile-bg'>
+              <img src={Mobilebg}></img>
+            </div>
             <div className="title">
               <h1>Hello i'm <br />Lars van Boven</h1>
             </div>

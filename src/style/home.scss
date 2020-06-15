@@ -5,6 +5,10 @@
         min-height: 100vh;
 
         .container{
+
+            .mobile-bg{
+                display: none;
+            }
             .sub-title{
                 display: inline-block;
                 position: relative;
@@ -40,6 +44,18 @@
             }
         }
 
+        @media (max-width: $home-lg){
+            .container{
+                margin-top:400px; 
+            }
+        }
+
+        @media (max-width: $md){
+            .container{
+                margin-top:160px; 
+            }
+        }
+
         .img{
             height: 100%;
             max-height: 750px;
@@ -50,6 +66,36 @@
             img{
                 object-fit: cover;
                 height: 100%;
+            }
+        }
+
+        @media (max-width: $md){
+            .img{
+                display: none;
+            }
+
+            .container{
+                .title{
+                    margin-top:-200px;
+                    
+                    &::before{
+                        height: 90px;
+                    }
+                }
+                .sub-title{
+                    margin-left: 20px;
+                }
+                .mobile-bg{
+                    display: inline-block;
+                    height: 600px;
+                    margin: 0 auto;
+                    width: 100%;
+                    text-align: center;
+                    img{
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
             }
         }
     }

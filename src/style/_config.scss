@@ -16,11 +16,12 @@ $secondary-color: #fff;
 $tertiary-color: #1900FF;
 
 // Breakpoints --------------------------------------------------
-
+$ss: 540px;
 $sm: 640px;
 $md: 730px;
 $lg: 940px;
 $xl: 1080px;
+$home-lg: 1180px;
 
 p,a,strong,h1,h2,h3,h4,h5,h6{
     color: $secondary-color;
@@ -43,6 +44,11 @@ h1{
     @media (max-width: $md){
         font-size: 50px ;
     }
+    @media (max-width: $sm){
+        font-size: 35px ;
+        line-height: 40px;
+
+    }
 
 }
 
@@ -57,7 +63,9 @@ h2{
     padding-left: 20px;
     box-sizing: border-box;
 
-
+    @media (max-width: $sm){
+        font-size: 30px ;
+    }
 }
 
 p{
@@ -189,6 +197,13 @@ a{
                     top: 50%;
                     transform: translate(0%, -50%);
                     z-index: 2;
+                }
+
+                @media (max-width: $sm){
+                    &::before{
+                        height: 90px;
+                    }
+            
                 }
             }
         }

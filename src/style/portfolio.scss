@@ -5,7 +5,7 @@
        min-height: 100vh;
 
        .container{
-        
+
             .projects-container{
                 width: 100%;
                 display: flex;
@@ -14,7 +14,7 @@
                 margin-top: 50px;
 
                 &.code{
-                    margin-top: 250px;
+                    margin-top: 150px;
                 }
 
                 .type{
@@ -56,6 +56,10 @@
 
                         .content{
                             padding-left: 60px;
+
+                            .project-sum{
+                                opacity: 1 ; 
+                            }
                         }
                     }
 
@@ -85,11 +89,14 @@
                         padding: 30px;
                         box-sizing: border-box;
                         transition: all ease 0.5s;
-                    }
 
+                        .project-sum{
+                            transition: all ease 0.5s;
+                            opacity: 0 ; 
+                        }
+                    }
                 }
             }
-
-       }
+        }
     }
 }

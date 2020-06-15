@@ -11,8 +11,8 @@ function Nav() {
                     </div>
                     <div className="menu">
                         
-                        <NavLink className="menu-item" to='/about' activeClassName="selected">About</NavLink>
-                        <NavLink className="menu-item" to='/skills'activeClassName="selected">Skills</NavLink>
+                        <NavLink className="menu-item" to='/overmij' activeClassName="selected">Over mij</NavLink>
+                        {/* <NavLink className="menu-item" to='/skills'activeClassName="selected">Skills</NavLink> */}
                         <NavLink className="menu-item" to='/portfolio'activeClassName="selected">Portfolio</NavLink>
                     </div>
                 </div>

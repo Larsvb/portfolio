@@ -23,6 +23,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
 
@@ -30,6 +31,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
 
@@ -37,6 +39,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
 
@@ -44,6 +47,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
           </div>
@@ -56,6 +60,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
 
@@ -63,6 +68,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
 
@@ -70,6 +76,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
 
@@ -77,6 +84,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
+                <strong className='project-sum'>Info about the project</strong>
               </div>
             </NavLink>
           </div>

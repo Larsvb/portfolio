@@ -83,6 +83,44 @@
                 }
             }
 
+            @media (max-width: $xl){
+
+                .text-container{
+
+                    .story{
+                        width: 100%;
+                    }
+    
+                    .extra-story-container{
+                        width: 100%;
+                        margin-top: 30px;
+                        padding: 0px;
+    
+                        .char, .hobbies{
+                            width: 50%;
+                            float: left;
+                        }
+                    }
+                }
+            }
+            @media (max-width: $md){
+                .text-container{
+                    padding-left: 0px;
+                    margin-top: 50px;
+                }
+            }
+            @media (max-width: $sm){
+                .text-container{
+                    .extra-story-container{
+                        .char, .hobbies{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+
+
             .icons-container{
                 display: inline-block;
                 width: 100%;
@@ -120,7 +158,7 @@
                         width: 100%;
 
                         .icon{
-                            width: 270px;
+                            width: 33%;
                             height: 60px;
                             margin-bottom: 40px;
                             display: flex;
@@ -144,9 +182,39 @@
                                 margin:0px;
                             }
                         }
+
+                        @media (max-width: $lg){
+                            .icon{
+                                width: 50%;
+                            }
+                        }
+
+                        @media (max-width: $sm){
+                            .icon{
+                                width: 100%;
+                                
+                            }
+                        }
                     }
                 }
             }
+
+            // @media (max-width: $sm){
+            //     .icons-container{
+            //         .icons{
+            //             text-align: center;
+            //             .type{
+            //                 &::before{
+            //                     content: '';
+            //                     width: 120%;
+            //                     height: 20px;
+            //                     top: -5px;
+            //                     left: 50%;
+            //                 }
+            //             }
+            //         }
+            //     } 
+            // }
        }
 
        .img{

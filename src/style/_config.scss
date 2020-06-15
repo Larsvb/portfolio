@@ -15,6 +15,13 @@ $primary-color: #272727 ;
 $secondary-color: #fff;
 $tertiary-color: #1900FF;
 
+// Breakpoints --------------------------------------------------
+
+$sm: 640px;
+$md: 730px;
+$lg: 940px;
+$xl: 1080px;
+
 p,a,strong,h1,h2,h3,h4,h5,h6{
     color: $secondary-color;
     font-family: $primary-font;

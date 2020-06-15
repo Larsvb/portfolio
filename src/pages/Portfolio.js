@@ -15,7 +15,7 @@ function Portfolio() {
             <h1>My Portfolio</h1>
           </div>
 
-          <div className="projects-container">
+          <div className="projects-container code">
 
             <h2 className="type">Codeer Projecten</h2>
 
@@ -48,7 +48,7 @@ function Portfolio() {
             </NavLink>
           </div>
 
-          <div className="projects-container">
+          <div className="projects-container design">
 
             <h2 className="type">Design Projecten</h2>
 

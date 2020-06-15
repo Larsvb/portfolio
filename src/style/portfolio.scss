@@ -5,13 +5,17 @@
        min-height: 100vh;
 
        .container{
-
+        
             .projects-container{
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
                 margin-top: 50px;
+
+                &.code{
+                    margin-top: 250px;
+                }
 
                 .type{
                     width: 100%;

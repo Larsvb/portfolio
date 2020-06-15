@@ -37,6 +37,12 @@ h1{
     font-weight: $bold;
     z-index: 2;
     position: relative;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+    @media (max-width: $md){
+        font-size: 50px ;
+    }
 
 }
 
@@ -48,6 +54,9 @@ h2{
     font-weight: $bold;
     z-index: 2;
     position: relative;
+    padding-left: 20px;
+    box-sizing: border-box;
+
 
 }
 
@@ -156,7 +165,7 @@ a{
     .full-row{
         margin: 0 auto;
         max-width: 1080px;
-        padding: 0 35px 0 110px;
+        padding: 0 35px 0 80px;
 
         .container{
             margin-top: 160px;
@@ -176,7 +185,7 @@ a{
                     height: 160px;
                     width: 70px;
                     background: $tertiary-color;
-                    left: -35px;
+                    left: 0;
                     top: 50%;
                     transform: translate(0%, -50%);
                     z-index: 2;

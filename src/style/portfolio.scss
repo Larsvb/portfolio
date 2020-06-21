@@ -17,27 +17,6 @@
                     margin-top: 150px;
                 }
 
-                .type{
-                    width: 100%;
-                    display: inline-block;
-                    font-size: 18px;
-                    z-index: 5;
-                    margin-bottom:30px;
-                    position: relative;
-
-                    &::before{
-                        content: '';
-                        width: 122px;
-                        height: 31px;
-                        background: $tertiary-color;
-                        position: absolute;
-                        top: -2px;
-                        left: 0px;
-                        transform: translate(0%, 0);
-                        z-index: -1;
-                    }
-                }
-
                 .project{
                     width: calc(50% - 30px);
                     display: inline-block;
@@ -45,9 +24,6 @@
                     position: relative;
                     margin-bottom: 50px;
                     transition: all ease 0.4s;
-                    -webkit-box-shadow: 10px 10px 21px -9px rgba(0,0,0,0.57);
-                    -moz-box-shadow: 10px 10px 21px -9px rgba(0,0,0,0.57);
-                    box-shadow: 10px 10px 21px -9px rgba(0,0,0,0.57);
 
                     &:hover{
                         -webkit-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.57);

@@ -17,9 +17,9 @@ function Portfolio() {
 
           <div className="projects-container code">
 
-            <h2 className="type">Codeer Projecten</h2>
+            <h2 className="sub-title">Codeer Projecten</h2>
 
-            <NavLink className="project" to="/portfolio/androidapp">
+            <NavLink className="project shadow" to="/portfolio/androidapp">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -27,7 +27,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -35,7 +35,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -43,7 +43,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -54,9 +54,9 @@ function Portfolio() {
 
           <div className="projects-container design">
 
-            <h2 className="type">Design Projecten</h2>
+            <h2 className="sub-title">Design Projecten</h2>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -64,7 +64,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -72,7 +72,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>
@@ -80,7 +80,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>

@@ -26,8 +26,15 @@ $home-lg: 1180px;
 p,a,strong,h1,h2,h3,h4,h5,h6, li{
     color: $secondary-color;
     font-family: $primary-font;
-    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
+.shadow{
+    -webkit-box-shadow: 10px 10px 21px -9px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 21px -9px rgba(0,0,0,0.57);
+    box-shadow: 10px 10px 21px -9px rgba(0,0,0,0.57);
+}
+
 
 h1{
     font-family: $primary-font;
@@ -68,6 +75,27 @@ h2{
     }
 }
 
+.sub-title{
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    z-index: 5;
+    margin-bottom:30px;
+    position: relative;
+
+    &::before{
+        content: '';
+        width: 122px;
+        height: 31px;
+        background: $tertiary-color;
+        position: absolute;
+        top: -2px;
+        left: 0px;
+        transform: translate(0%, 0);
+        z-index: -1;
+    }
+}
+
 p{
     font-family: $primary-font;
     color: $secondary-color;
@@ -81,6 +109,23 @@ body{
 
 html,body{
     height: 100%;
+ }
+
+ .button{
+     padding: 10px 10px;
+     box-sizing: border-box;
+     border: 3px solid $tertiary-color;
+     background:$tertiary-color;
+     transition: all ease 0.5s;
+     float: right;
+
+     &:hover{
+        background: transparent;
+        color: $secondary-color;
+     }
+ }
+.video-react{
+     margin-top:10px;
  }
 
 // Sidebar styling -------------------------------------------------------

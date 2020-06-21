@@ -1,0 +1,16 @@
+.row{
+    &.project{
+        .container{
+            .text-container{
+                .project-sum{
+                    margin-top: 70px;
+                    display: inline-block;
+                    width: 100%;
+                }
+                .project-content{
+
+                }
+            }
+        }
+    }
+}

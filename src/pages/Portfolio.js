@@ -27,7 +27,7 @@ function Portfolio() {
               </div>
             </NavLink>
 
-            <NavLink className="project shadow" to="/">
+            <NavLink className="project shadow" to="/portfolio/grownhome">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Grownhome</h2>

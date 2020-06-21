@@ -80,7 +80,7 @@ h2{
     display: inline-block;
     font-size: 18px;
     z-index: 5;
-    margin-bottom:30px;
+    margin-top:30px;
     position: relative;
 
     &::before{
@@ -99,7 +99,7 @@ h2{
 p{
     font-family: $primary-font;
     color: $secondary-color;
-    font-weight: $semi-bold;
+    font-weight: $regular;
 }
 
 body{
@@ -130,6 +130,16 @@ html,body{
  }
 .video-react{
      margin-top:10px;
+ }
+
+ .content-image{
+    width: 100%;
+    margin-bottom: 15px;
+    display: inline-block;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
  }
 
 // Sidebar styling -------------------------------------------------------

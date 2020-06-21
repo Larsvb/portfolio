@@ -14,6 +14,7 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Portfolio from './pages/Portfolio';
 import AndroidApp from './pages/projects/AndroidApp';
+import GrownHome from './pages/projects/GrownHome';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           {/* <Route exact path="/skills" component={Skills} /> */}
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/portfolio/androidapp" component={AndroidApp} />
+          <Route exact path="/portfolio/grownhome" component={GrownHome} />
         </Switch>
       </Router>
   );

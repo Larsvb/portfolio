@@ -24,17 +24,23 @@ function GrownHome() {
                     </p>
 
                     <p>
-                      Het product wat we hierbij hebben bedacht en ontwikkeld is een (web)app die mensen helpt bij het onderhouden van hun Groente & Fruit planten 
-                      die ze in hun huis hebben staan. Deze app / service heet GrownHome. Mensen kunnen een account aan kunnen maken. Zodra ze een 
-                      account hebben kunnen ze op de overzicht pagina hun verschillende soorten planten toevoegen die zij momenteel thuis hebben staan. 
-                      Doordat ze hun planten toevoegen aan hun overzicht zorgt de app ervoor dat mensen d.m.v. notificaties worden ingelicht tijdens het onderhoud proces van de 
-                      planten. 
-                    </p>
+                      Het product wat we hierbij hebben bedacht en ontwikkeld heet GrownHome.<br />
+                      Het ontwikkelde product, GrownHome, is een inventarisatie systeem waarin je kan aangeven welke planten je hebt. De app zal vervolgens 
+                      bijhouden wanneer je deze planten water hebt gegeven en wanneer je ze weer water moet geven. Daarnaast voorziet de app je van alle informatie die je nodigt hebt om goed voor je plantjes te zorgen, zoals potgrond, belichting en plaatsing.
+                      <br /><br />
+                      De app is gemaakt met MySQL, Laravel, React & Tailwind. <br /><br />
 
-                    <p>
-                      Deze notificaties kunnen aangeven dat ze bijvoorbeeld hun plant water moet geven, of oogsten of evt. snoeien. 
-                      Hiermee willen wij het onderhouden van eigen moestuintjes in huis gemakkelijker maken en efficiënter voor de mensen. Dit zal er voor zorgen dat
-                      mensen minder kant en klare kruiden, groenten, etc. zullen kopen wat weer bespaard op het plastic verbruik van die productverpakkingen.
+                      MySQL wordt gebruikt voor de database.
+                      Hiervoor hebben we gekozen omdat de standaard database is voor het laravel framework.
+                      <br /><br />
+                      Laravel wordt gebruikt voor de backend API.
+                      Hiervoor hebben we gekozen omdat we al wat ervaring hadden met dit framework, en het veel werklast wegneemt van een backend handmatig schrijven.
+                      <br /><br />
+                      React wordt gebruikt voor een dynamische en fluïde frontend.
+                      We hebben hier voor gekozen om de performance van de webpagina flink te verbeteren. Daarnaast geeft deze library ons de mogelijkheid om eenvoudig animaties toe te voegen aan onze app.
+                      <br /><br />
+                      Tailwind wordt gebruikt voor CSS styling.
+                      We hebben gekozen voor deze CSS library omdat de componenten er goed uitzien en het eenvoudig is om mee te werken. Daarnaast is het werken met een CSS library een stuk sneller dan alles handmatig schrijven.
                     </p>
                 </div>
 
@@ -61,11 +67,12 @@ function GrownHome() {
                   </div>
 
                   <a className='button shadow' href='https://github.com/T-Lander/GrownHome'>Github Repository link</a>
+                 
                 </div>
 
                 <div className='project-content'>
                     <h2 className="sub-title">Beeldmateriaal</h2>
-                    <p>Hieronder is de video te zien waarbij elke eis en de extra toegevoegde functies van de opdracht per stuk worden weergeven.</p>
+                    <p>De video waarin we ons product gebruiken is hieronder te zien.</p>
                     <Player className='shadow'>
                         <source src="https://www.youtube.com/watch?v=-22SwJh8gec" />
                     </Player>

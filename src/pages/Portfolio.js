@@ -22,16 +22,16 @@ function Portfolio() {
             <NavLink className="project shadow" to="/portfolio/androidapp">
               <img src={Bg}></img>
               <div className="content">
-                <h2>Project 1</h2>
-                <strong className='project-sum'>Info about the project</strong>
+                <h2>Android Applicatie</h2>
+                <strong className='project-sum'>Pokedex app d.m.v. Android Studio</strong>
               </div>
             </NavLink>
 
             <NavLink className="project shadow" to="/">
               <img src={Bg}></img>
               <div className="content">
-                <h2>Project 1</h2>
-                <strong className='project-sum'>Info about the project</strong>
+                <h2>Grownhome</h2>
+                <strong className='project-sum'></strong>
               </div>
             </NavLink>
 

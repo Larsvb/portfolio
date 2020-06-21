@@ -25,6 +25,12 @@
                     margin-bottom: 50px;
                     transition: all ease 0.4s;
 
+                    h2{
+                        font-size: 30px;
+                        padding-left: 0px;
+                        margin-bottom: 0px;
+                    }
+
                     &:hover{
                         -webkit-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.57);
                         -moz-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.57);

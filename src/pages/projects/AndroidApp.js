@@ -32,13 +32,14 @@ function AndroidApp() {
                         Ik was helaas vergeten om bij dit project Github toe te passen. Ik heb de uiteindelijk app wel op Github gezet alleen zijn hierbij niet de commits te zien.
 
                         <br /><br />
-                        <a className='button' href='https://github.com/Larsvb/PokedexApp-AndroidStudio'>Github Repository link</a>
                     </p>
+                    <a className='button shadow' href='https://github.com/Larsvb/PokedexApp-AndroidStudio'>Github Repository link</a>
+
                 </div>
 
                 <div className='project-content'>
                     <h2 className="sub-title">Beeldmateriaal</h2>
-                    <p>Video van de applicatie in zijn werking:</p>
+                    <p>Hieronder is de video te zien waarbij elke eis en de extra toegevoegde functies van de opdracht per stuk worden weergeven.</p>
                     <Player className='shadow'>
                         <source src="https://www.youtube.com/watch?v=-22SwJh8gec" />
                     </Player>

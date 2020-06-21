@@ -19,7 +19,7 @@ function Portfolio() {
 
             <h2 className="type">Codeer Projecten</h2>
 
-            <NavLink className="project" to="/">
+            <NavLink className="project" to="/portfolio/androidapp">
               <img src={Bg}></img>
               <div className="content">
                 <h2>Project 1</h2>

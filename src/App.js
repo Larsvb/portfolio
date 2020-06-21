@@ -13,6 +13,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Portfolio from './pages/Portfolio';
+import AndroidApp from './pages/projects/AndroidApp';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Route exact path="/overmij" component={About} />
           {/* <Route exact path="/skills" component={Skills} /> */}
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/portfolio/androidapp" component={AndroidApp} />
         </Switch>
       </Router>
   );

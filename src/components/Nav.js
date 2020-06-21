@@ -1,13 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
 
+import Logo from '../images/logos/logo.png'
+
 function Nav() {
     return(
         <div className="row nav">
             <div className="full-row">
                 <div className="container">
                     <div className='logo'>
-                        <NavLink to="/"><h2>Lars van Boven</h2></NavLink>
+                        <NavLink to="/"><img src={Logo}></img><h2>Lars van Boven</h2></NavLink>
                     </div>
                     <div className="menu">
                         

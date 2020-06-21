@@ -63,7 +63,7 @@ function GrownHome() {
                   </p>
 
                   <div className='content-image'>
-                    <img src={AdobeXD} alt='Styleguide'></img>
+                    <img src={AdobeXD} alt='Adobe XD prototype'></img>
                   </div>
 
                   <a className='button shadow' href='https://github.com/T-Lander/GrownHome'>Github Repository link</a>

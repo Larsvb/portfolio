@@ -28,10 +28,34 @@
                 justify-content:space-between;
                 vertical-align: middle;
                 .logo{
-
+                    width: 300px;
+                    display: block;
+                    a{
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        width: 100%;
+                    }
+                    
+                    img{
+                        height: 35px;
+                        object-fit: contain;
+                    }
                     h2{
                         margin:10px 0 9px;
                         font-size: 25px;
+                        position: relative;
+
+                        &::before{
+                            content: '';
+                            width: 2px;
+                            background: $secondary-color;
+                            height: 30px;
+                            left: 10px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            position: absolute;
+                        }
                     }
                 }
 

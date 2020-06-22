@@ -50,7 +50,7 @@ function GrownHome() {
                   <p>Tijdens dit project was ik de ontwerper van de (web)app. Ik heb verschillende onderzoeken gedaan met het team om het concept en de doelgroep goed in context te brengen, 
                     een styleguide gemaakt voor ons product om richtlijnen te hebben wat betreft kleuren, fonts en inspiratie. </p>
 
-                  <div className='content-image'>
+                  <div className='content-image shadow'>
                     <img src={StyleGuide} alt='Styleguide'></img>
                   </div>
                   
@@ -62,7 +62,7 @@ function GrownHome() {
                     Hiervoor had ik gebruik gemaakt van het Tailwind CSS framework.
                   </p>
 
-                  <div className='content-image'>
+                  <div className='content-image shadow'>
                     <img src={AdobeXD} alt='Adobe XD prototype'></img>
                   </div>
 

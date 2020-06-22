@@ -13,7 +13,8 @@ $transform: uppercase ;
 // Colors -------------------------------------------------------
 $primary-color: #272727 ;
 $secondary-color: #fff;
-$tertiary-color: #1900FF;
+$tertiary-color: #1900FF; 
+$text-color: #b5b5b5;
 
 // Breakpoints --------------------------------------------------
 $ss: 540px;
@@ -27,6 +28,9 @@ p,a,strong,h1,h2,h3,h4,h5,h6, li{
     color: $secondary-color;
     font-family: $primary-font;
     margin-top: 0px;
+}
+p, li, strong{
+    color: $text-color !important;
 }
 
 .shadow{
@@ -47,6 +51,7 @@ h1{
     position: relative;
     padding-left: 20px;
     box-sizing: border-box;
+    margin-bottom: 10px;
 
     @media (max-width: $md){
         font-size: 50px ;
@@ -69,6 +74,7 @@ h2{
     position: relative;
     padding-left: 20px;
     box-sizing: border-box;
+    margin-bottom: 10px;
 
     @media (max-width: $sm){
         font-size: 30px ;
@@ -82,6 +88,7 @@ h2{
     z-index: 5;
     margin-top:30px;
     position: relative;
+    margin-bottom: 20px;
 
     &::before{
         content: '';

@@ -19,23 +19,18 @@
                 padding-left:60px ;
                 box-sizing: border-box;
                 justify-content: space-between;
+                padding-left: 100px;
+                box-sizing: border-box;
 
                 .story{
                     width: calc(100% - 320px);
                     display: block;
 
-                    p{
-                        font-size: 14px;
-                    }
                 }
 
                 .intro{
                     width: 100%;
                     display: block;
-
-                    p{
-                        font-size: 14px;
-                    }
                 }
 
                 .extra-story-container{

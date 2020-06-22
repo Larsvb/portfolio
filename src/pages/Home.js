@@ -15,7 +15,7 @@ function Home() {
               <h1>Hello i'm <br />Lars van Boven</h1>
             </div>
 
-            <div className="sub-title">
+            <div className="sub-intro">
               <h4> Media vormgever & Full-Stack developer</h4> 
             </div>
         </div>

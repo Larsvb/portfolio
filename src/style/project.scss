@@ -2,8 +2,11 @@
     &.project{
         .container{
             .text-container{
+                padding: 15px;
+                box-sizing: border-box;
+                margin-top: 88px;
+
                 .project-sum{
-                    margin-top: 70px;
                     display: inline-block;
                     width: 100%;
                 }

@@ -31,7 +31,7 @@ function Portfolio() {
               <img src={Bg}></img>
               <div className="content">
                 <h2>Grownhome</h2>
-                <strong className='project-sum'></strong>
+                <strong className='project-sum'>(web)app d.m.v. React, Laravel & TailwindCSS</strong>
               </div>
             </NavLink>
 

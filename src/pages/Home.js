@@ -12,7 +12,7 @@ function Home() {
               <img src={Mobilebg}></img>
             </div>
             <div className="title">
-              <h1>Hello i'm <br />Lars van Boven</h1>
+              <h1>Hallo, ik ben <br />Lars van Boven</h1>
             </div>
 
             <div className="sub-intro">
